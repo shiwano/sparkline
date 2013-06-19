@@ -1,6 +1,6 @@
 # sparkline [![Build Status](https://secure.travis-ci.org/shiwano/sparkline.png?branch=master)](http://travis-ci.org/shiwano/sparkline)
 
-JavaScript implementation of [spark](https://github.com/holman/spark).
+A JavaScript implementation of [spark](https://github.com/holman/spark).
 
 ## Usage
 

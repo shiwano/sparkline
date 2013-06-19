@@ -1,6 +1,6 @@
 {
   "name": "sparkline",
-  "description": "JavaScript implementation of 'spark'.",
+  "description": "A JavaScript implementation of 'spark'.",
   "version": "0.1.1",
   "homepage": "https://github.com/shiwano/sparkline",
   "author": {
