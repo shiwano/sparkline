@@ -1,5 +1,5 @@
 {
-  "name": "spark",
+  "name": "node-sparkline",
   "version": "0.1.1",
   "main": "lib/sparkline.js",
   "ignore": [
