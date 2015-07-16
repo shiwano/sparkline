@@ -40,6 +40,12 @@ exports['sparkline'] = {
     test.done();
   },
 
+  'with specified min/max': function(test){
+    var arg = [1, 2, 3, 4, 5];
+    test.equal(sparkline(arg, {min:0, max:10}), '▁▂▃▃▄');
+    test.done();
+  },
+
   'default on bin': function(test) {
     var child = exec('./bin/sparkline 1,5,22,13,5', {timeout: 3000}, function(err, stdout, stderr) {
       test.equal(stdout.replace(/\n$/, ''), '▁▂█▅▂');
