@@ -46,6 +46,12 @@ exports['sparkline'] = {
     test.done();
   },
 
+  'with html option': function(test) {
+    var arg = [1, 2, 3, 4, 5];
+    test.equal(sparkline(arg, {html: true}), '<span title="1">▁</span><span title="2">▂</span><span title="3">▄</span><span title="4">▆</span><span title="5">█</span>');
+    test.done();
+  },
+
   'default on bin': function(test) {
     var child = exec('./bin/sparkline 1,5,22,13,5', {timeout: 3000}, function(err, stdout, stderr) {
       test.equal(stdout.replace(/\n$/, ''), '▁▂█▅▂');
